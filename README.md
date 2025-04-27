@@ -1,5 +1,5 @@
 ## 📊 DoughnutChartApp
-This project is a beginner-friendly Angular standalone component application to display financial year data in a Doughnut Chart using ng2-charts and Chart.js.
+This project is a user-friendly Angular standalone component application to display financial year data in a Doughnut Chart using ng2-charts and Chart.js.
 
 Users can select a year from a dropdown and view:
 
