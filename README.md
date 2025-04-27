@@ -1,6 +1,38 @@
-# DoughnutChartApp
+## 📊 DoughnutChartApp
+This project is a beginner-friendly Angular standalone component application to display financial year data in a Doughnut Chart using ng2-charts and Chart.js.
+
+Users can select a year from a dropdown and view:
+
+The financial details (Invoice, VAT, Expense, Bonus, Other Income)
+
+Gross Salary (displayed at the center of the doughnut)
+
+Financial Year Start and End dates
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+
+## 🛠 Tech Stack
+Angular 17 (Standalone Components)
+
+ng2-charts
+
+Chart.js
+
+Bootstrap 5 (for layout & styling)
+
+## 📦 Configuration Details
+Chart Library Setup:
+This app uses ng2-charts package:
+npm install ng2-charts chart.js
+
+Standalone Component Usage:
+The chart component is built as a standalone Angular component (standalone: true), meaning no need for traditional modules.
+
+Chart Display:
+Using <canvas baseChart> with custom plugins to show Gross Salary in the center.
+
+Financial Year Calculation:
+Start and end dates are calculated based on the first and last working days (non-eekends) of the selected year.
 
 ## Development server
 
